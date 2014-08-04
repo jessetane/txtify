@@ -1,0 +1,19 @@
+{
+  "name": "txtify",
+  "description": "require() text files with browserify",
+  "version": "1.0.0",
+  "dependencies": {
+    "quote-stream": "0.0.0",
+    "stream-combiner": "^0.2.1",
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "browserify": "^5.9.1",
+    "tape": "^2.13.4"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Jesse Tane <jesse.tane@gmail.com>",
+  "license": "WTFPL"
+}
