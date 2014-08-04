@@ -40,7 +40,7 @@ browserify -t txtify2 app.js > build.js
 `npm test`
 
 ## notes
-submit a PR with a test to add other extensions you think should be recognized.
+submit a PR to add (or remove?) extensions.
 
 ## license
 WTFPL
