@@ -1,8 +1,5 @@
-# txtify
-a transform that lets you `require()` text files with [browserify](https://github/substack/node-browserify)
-
-currently the following extensions are considered text files:
-
+# txtify2
+a [browserify](https://github/substack/node-browserify) transform that lets you `require()` text files with these extensions:
 * txt
 * text
 * html
@@ -12,7 +9,7 @@ currently the following extensions are considered text files:
 * tpl
 
 ## why
-[brfs](https://github/substack/brfs), while pure in the sense that it only enables what would be possible in node, is a lot of typing, not very pretty, and I always forget to utf8 decode the buffer it returns!
+[brfs](https://github/substack/brfs), while pure in the sense that it only enables what would be possible in node, is a lot of typing, not very pretty, and I always forget to utf-8 decode the buffer it returns!
 
 ## how
 app.js
@@ -25,19 +22,19 @@ package.json
 {
   "name": "app",
   "browserify": {
-    "transform": {
-      "txtify"
-    }
+    "transform": [
+      "txtify2"
+    ]
   }
 }
 ```
 or if you're using the CLI:
 ``` bash
-browserify -t txtify app.js > build.js
+browserify -t txtify2 app.js > build.js
 ```
 
 ## install
-`npm install txtify`
+`npm install txtify2`
 
 ## test
 `npm test`
