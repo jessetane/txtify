@@ -1,5 +1,5 @@
 # txtify
-`require()` text files with [browserify](https://github/substack/node-browserify)
+a transform that lets you `require()` text files with [browserify](https://github/substack/node-browserify)
 
 currently the following extensions are considered text files:
 
