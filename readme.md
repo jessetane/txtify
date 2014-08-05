@@ -9,7 +9,7 @@ a [browserify](https://github/substack/node-browserify) transform that lets you 
 * tpl
 
 ## why
-[brfs](https://github/substack/brfs), while pure in the sense that it only enables what would be possible in node, is a lot of typing, not very pretty, and I always forget to utf-8 decode the buffer it returns!
+[brfs](https://github.com/substack/brfs), while pure in the sense that it only enables what would be possible in node, is a lot of typing, not very pretty, and I always forget to utf-8 decode the buffer it returns!
 
 ## how
 app.js
