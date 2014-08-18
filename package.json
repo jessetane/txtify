@@ -22,6 +22,10 @@
   "scripts": {
     "test": "node test"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jessetane/txtify2.git"
+  },
   "author": "Jesse Tane <jesse.tane@gmail.com>",
   "license": "WTFPL"
 }
