@@ -4,10 +4,13 @@
   "keywords": [
     "browserify",
     "transform",
-    "text files",
+    "require text files",
     "text",
     "html",
-    "txt"
+    "txt",
+    "txtify",
+    "textify",
+    "stringify"
   ],
   "version": "1.0.2",
   "dependencies": {
