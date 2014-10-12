@@ -20,7 +20,7 @@ tape('extensions', function(t) {
   for (var i in extensions) (function(extension) {
     var file = fs.readFileSync(__dirname + '/fixtures/' + extension + '/index.' + extension, 'utf8');
     var b = browserify(__dirname + '/fixtures/' + extension + '/index.js');
-    b.transform(txtify);
+    b.transform(txtify, { extensions: extensions });
     b.bundle(function(err, src) {
       if (err) t.fail(err);
       
