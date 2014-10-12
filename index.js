@@ -1,6 +1,6 @@
 var thru = require('through2').obj;
 var quote = require('quote-stream');
-var combine = require('stream-combiner');
+var combine = require('stream-combiner2');
 
 var extensions = [
   'txt',
