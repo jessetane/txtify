@@ -36,4 +36,4 @@ function txtify(file) {
   else {
     return thru();
   }
-};
+}
